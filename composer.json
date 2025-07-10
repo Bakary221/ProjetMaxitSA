@@ -1,0 +1,22 @@
+{
+    "name": "bakary/projet-maxit-s",
+    "autoload": {
+        "psr-4": {
+            "Bakary\\ProjetMaxitS\\": "src/",
+            "App\\Core\\": "app/core/",
+            "App\\Core\\Abstract\\": "app/core/abstract/",
+            "App\\Controller\\": "src/controller/",
+            "App\\Config\\": "app/config/",
+            "App\\Core\\Middlewares\\": "app/core/middlewares/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bakary",
+            "email": "bakarydiassy28@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
