@@ -7,12 +7,11 @@
         private static $instance = null;
 
         private function __construct() {
-            $dsn = $_ENV['DB_DSN'];
             $user = $_ENV['DB_USER'];
             $password = $_ENV['DB_PASSWORD'];
 
             try {
-                $this->connection = new \PDO($dsn, $user, $password);
+                $this->connection = new \PDO(DB_DSN, $user, $password);
             } catch (\PDOException $e) {
                 die("Erreur de connexion à la base de données : " . $e->getMessage());
             }

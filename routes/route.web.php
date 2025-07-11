@@ -3,21 +3,35 @@
     use App\Controller\ClientController;
     use App\Controller\SecurityController;
 
-    return $routes = [
-            "/" => [
-                "controller" => SecurityController::class,
-                "action" => "create",
-            ],
-            "/inscription" => [
-                "controller" => SecurityController::class,
-                "action" => "show",
-            ],
-            "/login" => [
-                "controller" => SecurityController::class,
-                "action" => "login",
-            ],
-            "/acceuil" => [
-                "controller" => ClientController::class,
-                "action" => "index",
-            ],
+    return [
+        "/" => [
+            "controller" => SecurityController::class,
+            "action" => "create",
+            "middleware" => []
+        ],
+        "/inscription" => [
+            "controller" => SecurityController::class,
+            "action" => "show",
+            "middleware" => []
+        ],
+        "/login" => [
+            "controller" => SecurityController::class,
+            "action" => "login",
+            "middleware" => []
+        ],
+        "/acceuil" => [
+            "controller" => ClientController::class,
+            "action" => "index",
+            "middleware" => []
+        ],
+        "/signUp" => [
+            "controller" => SecurityController::class,
+            "action" => "register",
+            "middleware" => ['cryptPassword']
+        ],
+        "/logout" => [
+            "controller" => SecurityController::class,
+            "action" => "logout",
+            "middleware" => []
+        ],
     ];

@@ -20,4 +20,19 @@
             }
         }
 
+        public static function phoneSN(string $field, ?string $value): void
+        {
+            if (!preg_match('/^(77|78|76|70|75)\d{7}$/', $value)) {
+                self::$errors[$field] = ErrorMessage::NUMERO_INVALIDE->value;
+            }
+        }
+
+        public static function cniSN(string $field, ?string $value): void
+        {
+            if (!preg_match('/^\d{13}$/', $value)) {
+                self::$errors[$field] = ErrorMessage::CNI_INVALIDE->value;
+            }
+        }
+
+
     }

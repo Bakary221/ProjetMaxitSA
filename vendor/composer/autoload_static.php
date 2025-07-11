@@ -37,6 +37,9 @@ class ComposerStaticInite2ac9baebcac6c0e0ab2f185b9da135a
         ),
         'A' => 
         array (
+            'App\\Service\\' => 12,
+            'App\\Repository\\' => 15,
+            'App\\Entity\\' => 11,
             'App\\Core\\Middlewares\\' => 21,
             'App\\Core\\Abstract\\' => 18,
             'App\\Core\\' => 9,
@@ -73,6 +76,18 @@ class ComposerStaticInite2ac9baebcac6c0e0ab2f185b9da135a
         'Bakary\\ProjetMaxitS\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'App\\Service\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/service',
+        ),
+        'App\\Repository\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/repository',
+        ),
+        'App\\Entity\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/entity',
         ),
         'App\\Core\\Middlewares\\' => 
         array (
