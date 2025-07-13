@@ -9,12 +9,12 @@
         public function __invoke()
         {
             if (!App::getDependancy('session')->isset('user')) {
-                header('Location: /');
+                header('Location: '.HOST);
                 exit;
             }else {
                 $user = App::getDependancy('session')->get('user');
                     if ($user["nom"] !== 'client') {
-                    header('Location: /acceuil');
+                    header('Location: '.HOST.'acceuil');
                     exit;
                 }
             }

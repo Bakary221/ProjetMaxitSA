@@ -24,7 +24,7 @@
 
         public function store()
         {
-            header('Location: /clients');
+            header('Location: '.HOST.'client');
             exit;
         }
 

@@ -8,7 +8,3 @@
 
 
     App::init();
-
-    // Define 
-    define('HOST' , $_ENV['HOST']);
-    define('DB_DSN', $_ENV['DB_DSN']);

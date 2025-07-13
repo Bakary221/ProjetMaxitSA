@@ -30,7 +30,7 @@
             if(!array_key_exists($name, self::$dependancies)){
                 self::$dependancies[$name] = $instance;
             } else {
-                throw new \Exception("Dependancy déjà enregistrée: " . $name);
+                throw new \Exception("Dependancie déjà enregistrée: " . $name);
             }
         }
     }

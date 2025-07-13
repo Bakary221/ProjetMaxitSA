@@ -4,7 +4,7 @@
 
     use App\Core\Error_404;
 
-    class Router
+    class Router 
     {
         public static function resolver($routes)
         {
