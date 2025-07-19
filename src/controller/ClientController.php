@@ -44,4 +44,8 @@
             header('Location: /clients');
             exit;
         }
+
+        public function compteSecondaire(){
+            $this->renderHtml('dashboard/ajoutCompteSecondaire');
+        }
     }

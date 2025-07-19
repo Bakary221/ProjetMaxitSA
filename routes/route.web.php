@@ -34,4 +34,9 @@
             "action" => "logout",
             "middleware" => []
         ],
+        "/compteSecondaire" => [
+            "controller" => ClientController::class,
+            "action" => "compteSecondaire",
+            "middleware" => []
+        ]
     ];

@@ -110,4 +110,7 @@
         }
 
        
+        public function ajouterCompte(){
+            
+        }
     }

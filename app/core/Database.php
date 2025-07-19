@@ -11,7 +11,7 @@
             $password = $_ENV['DB_PASSWORD'];
 
             try {
-                $this->connection = new \PDO(DB_DSN, $user, $password);
+                $this->connection = new \PDO("pgsql:host=". $_ENV['DB_HOST']. ";port= ".$_ENV['DB_PORT'].";dbname=maxitdb", $user, $password);
             } catch (\PDOException $e) {
                 die("Erreur de connexion à la base de données : " . $e->getMessage());
             }

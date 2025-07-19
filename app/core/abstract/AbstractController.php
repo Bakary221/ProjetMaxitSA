@@ -16,6 +16,7 @@
             $this->session = App::getDependancy('session');
         }
 
+
         public function renderHtml(string $view, array $data = [])
         {
             extract($data);
@@ -25,6 +26,7 @@
             $contentForLayout = ob_get_clean();
             require_once "../templates/" . $this->layout . ".html.php";
         }
+        
 
         abstract public function index();
         abstract public function edit();

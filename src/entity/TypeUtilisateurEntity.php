@@ -79,7 +79,5 @@
               'Utilisateur' => array_map(fn($u) => $u->toArray(), $this->Utilisateur)
           ];
       }
-
-
-    }
+  }
 

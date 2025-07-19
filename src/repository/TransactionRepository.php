@@ -36,7 +36,7 @@ class TransactionRepository extends AbstractRepository
 
     public function selectAllTransaction($idcompte)
     {
-        $sql = "SELECT * FROM transaction WHERE idCompte = :idcompte";
+        $sql = "SELECT * FROM transaction WHERE idCompte = :idcompte AND type = principale";
         $stmt = $this->pdo->prepare($sql);
         $stmt->bindValue(':idcompte', $idcompte);
         $stmt->execute();
