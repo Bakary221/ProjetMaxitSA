@@ -8,5 +8,6 @@ Bienvenue dans **Core Project**, un projet PHP modulaire prêt à l’emploi, co
 
 Pour créer un nouveau projet basé sur ce template :
 
+
 ```bash
-composer create-project bakary/core-project nom-du-projet
+composer create-project bakary/projet-maxit-s
