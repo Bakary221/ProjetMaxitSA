@@ -26,5 +26,6 @@ class Migration {
         ";
         $this->pdo->exec($sql);
         echo "✔ Tables créées.\n";
+        
     }
 }

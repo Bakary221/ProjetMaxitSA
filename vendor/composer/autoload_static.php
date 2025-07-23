@@ -48,6 +48,7 @@ class ComposerStaticInite2ac9baebcac6c0e0ab2f185b9da135a
             'App\\Core\\' => 9,
             'App\\Controller\\' => 15,
             'App\\Config\\' => 11,
+            'Abdoulaye\\AbdallahTedene\\' => 25,
         ),
     );
 
@@ -119,6 +120,10 @@ class ComposerStaticInite2ac9baebcac6c0e0ab2f185b9da135a
         'App\\Config\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/config',
+        ),
+        'Abdoulaye\\AbdallahTedene\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/abdoulaye-tedene/abdallah-tedene/src',
         ),
     );
 

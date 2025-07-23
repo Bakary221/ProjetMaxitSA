@@ -1,0 +1,49 @@
+# commandes docker 
+
+## Creer et lancer un commande docker. 
+
+```bash
+docker run <nom de l'image>
+```
+
+## Lister les conteneurs en coours d'execution.
+
+```bash
+docker ps
+```
+
+```bash
+docker container ps
+```
+
+## Lister tout les conteneurs.
+
+```bash
+docker ps -a
+```
+
+## Lister les images de docker.
+
+```bash
+docker image ls
+```
+
+```bash
+docker images
+```
+
+## Supprimer une image.
+
+```bash
+docker rm <id_de_l'image>
+```
+
+```bash
+docker container rm <id_de_l'image>
+```
+
+```bash
+docker rmi <id_de_l'image>
+```
+
+## Commande avancées de docker.

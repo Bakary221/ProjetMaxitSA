@@ -7,20 +7,20 @@ use App\Core\App;
 
 class TransactionRepository extends AbstractRepository
 {
-    private static ?self $instance = null;
+    // private static ?self $instance = null;
 
-    private function __construct()
-    {
-        parent::__construct();
-    }
+    // private function __construct()
+    // {
+    //     parent::__construct();
+    // }
 
-    public static function getInstance(): self
-    {
-        if (self::$instance === null) {
-            self::$instance = new self();
-        }
-        return self::$instance;
-    }
+    // public static function getInstance(): self
+    // {
+    //     if (self::$instance === null) {
+    //         self::$instance = new self();
+    //     }
+    //     return self::$instance;
+    // }
 
     public function selectAll() {}
 

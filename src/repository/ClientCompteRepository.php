@@ -8,18 +8,18 @@ use App\Core\Abstract\AbstractRepository;
     {
         private static ?ClientCompteRepository $instance = null;
 
-        private function __construct()
-        {
-            parent::__construct(); 
-        }
+        // private function __construct()
+        // {
+        //     parent::__construct(); 
+        // }
 
-        public static function getInstance(): ClientCompteRepository
-        {
-            if (self::$instance === null) {
-                self::$instance = new self();
-            }
-            return self::$instance;
-        }
+        // public static function getInstance(): ClientCompteRepository
+        // {
+        //     if (self::$instance === null) {
+        //         self::$instance = new self();
+        //     }
+        //     return self::$instance;
+        // }
 
         public function selectAll() {}
         public function selectBy(array $filter) {}

@@ -15,7 +15,7 @@ namespace App\Controller;
         public function __construct()
         {
             parent::__construct();
-            $this->clientService = \App\Core\App::getDependancy('clientService');
+            $this->clientService = ClientService::getInstance();
             $this->session = \App\Core\App::getDependancy('session');
             $this->clientCompteService = \App\Core\App::getDependancy("clientCompteService");
             $this->layout = 'layouts/security.layout';

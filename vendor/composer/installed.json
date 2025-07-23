@@ -1,6 +1,45 @@
 {
     "packages": [
         {
+            "name": "abdoulaye-tedene/abdallah-tedene",
+            "version": "V1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdoulaye150199/AbdallahTedene.git",
+                "reference": "a927944abba8e620349a88b4b192307b10d6d771"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdoulaye150199/AbdallahTedene/zipball/a927944abba8e620349a88b4b192307b10d6d771",
+                "reference": "a927944abba8e620349a88b4b192307b10d6d771",
+                "shasum": ""
+            },
+            "time": "2025-07-23T12:41:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Abdoulaye\\AbdallahTedene\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "diallolaye01",
+                    "email": "layediallo0115@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/abdoulaye150199/AbdallahTedene/issues",
+                "source": "https://github.com/abdoulaye150199/AbdallahTedene/tree/V1.0.0"
+            },
+            "install-path": "../abdoulaye-tedene/abdallah-tedene"
+        },
+        {
             "name": "graham-campbell/result-type",
             "version": "v1.1.3",
             "version_normalized": "1.1.3.0",

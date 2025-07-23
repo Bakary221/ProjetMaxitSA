@@ -23,4 +23,5 @@ return array(
     'App\\Core\\' => array($baseDir . '/app/core'),
     'App\\Controller\\' => array($baseDir . '/src/controller'),
     'App\\Config\\' => array($baseDir . '/app/config'),
+    'Abdoulaye\\AbdallahTedene\\' => array($vendorDir . '/abdoulaye-tedene/abdallah-tedene/src'),
 );
